@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*div*/
+div {
+    height: 100vh;
+
+}
+
+/*header*/
+header, footer {
+    background: #D9D9D9;
+    width: 100vw;
+    height: 22vh;
+}
+
+/*main content*/
+.wrapper-for-main-content {
+    height: 56vh;
+    display: grid;
+    grid-template-columns: 27vw 46vw 27vw;
+
+}
+
+.wrapper-for-main-content aside {
+    background: #C0BDBD;
+}
+
+.wrapper-for-main-content main {
+    display: grid;
+    grid-template-rows: 26vh 30vh;
+}
+
+.main-section-top {
+    background: #827878;
+}
+
+.main-section-bottom {
+    background: #B7ADAD;
+}
